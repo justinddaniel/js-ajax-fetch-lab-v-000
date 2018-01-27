@@ -19,12 +19,12 @@ function showResults(json) {
 }
 
 function forkRepo() {
-  const repo = 'learn-co-curriculum/javascript-fetch-lab'
+  const repo = fetch('https://github.com/justinddaniel/javascript-fetch-lab')
   //use fetch to fork it!
 }
 
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return ''
+  return token
 }
